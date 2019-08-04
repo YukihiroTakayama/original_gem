@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require "sample_gem"
+
+require "irb"
+
+p "test"
+IRB.start(__FILE__)
