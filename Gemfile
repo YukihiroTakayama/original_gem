@@ -1,4 +1,7 @@
-source "https://rubygems.org"
+# frozen_string_literal: true
 
-# Specify your gem's dependencies in sample_gem.gemspec
+source 'https://rubygems.org'
+gem 'rspec'
+gem 'rubocop'
+
 gemspec
